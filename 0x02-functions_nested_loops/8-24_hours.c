@@ -20,7 +20,7 @@ int j_rem;
 	   _putchar(i_rem + '0');
 	  _putchar(':');
 	  _putchar(j / 10 + '0');
-	  _putchar((j_rem + '0');
+	  _putchar(j_rem + '0');
 		   j++;
 	  _putchar('\n');
  }
