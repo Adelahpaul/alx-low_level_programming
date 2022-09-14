@@ -21,6 +21,7 @@ int l_rem;
 	  _putchar(':');
 	  _putchar(j / 10 + '0');
 	  _putchar((j_rem + '0');
+		   j++;
 	  _putchar('\n');
 		   }
       i++; 
