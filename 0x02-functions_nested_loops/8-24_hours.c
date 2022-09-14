@@ -13,7 +13,7 @@ int l_rem;
     {
       j = 0;
       while (j <= 59)
-	{
+	      {
 	      j_rem = j % 10;
 	      i_rem = i % 10;
 	  _putchar(i / 10 + '0');
@@ -23,9 +23,8 @@ int l_rem;
 	  _putchar((j_rem + '0');
 		   j++;
 	  _putchar('\n');
-		   }
+ }
       i++; 
       j = 0; 
-	
-    } 
+} 
 }
