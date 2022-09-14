@@ -11,14 +11,14 @@ int i_rem;
 int l_rem;
   while (i <= 23)	  
     {
-      j = 0'
+      j = 0;
       while (j <= 59)
 	{
 	      j_rem = j % 10;
 	      i_rem = i % 10;
 	  _putchar(i / 10 + '0');
 	   _putchar(i_rem + '0');
-	  _putchar(':')
+	  _putchar(':');
 	  _putchar(j / 10 + '0');
 	  _putchar((j_rem + '0');
 	  _putchar('\n');
