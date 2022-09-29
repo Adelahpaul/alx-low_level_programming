@@ -13,7 +13,7 @@ int is_palindrome(char *s)
 {
 	if (*s == 0)
 		return (1);
-	return (check_pal(s, 0, _strlen_recursion(s)));
+	return (pal_check(s, 0, _strlen_recursion(s)));
 }
 
 /**
@@ -30,7 +30,7 @@ int _strlen_recursion(char *s)
 }
 
 /**
- * check_pal - checks the characters recursively for palindrome
+ * pal_check - checks the characters recursively for palindrome
  * @s: string to check
  * @i: iterator
  * @len: length of the string
