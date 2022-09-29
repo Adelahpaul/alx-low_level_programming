@@ -29,4 +29,4 @@ int actual_prime(int n, int i)
 	if (n % i == 0 && i > 0)
 		return (0);
 	return (actual_prime(n, i - 1));
-}Write a function that returns 1 if the input integer is a prime number, otherwise return 0.
+}
